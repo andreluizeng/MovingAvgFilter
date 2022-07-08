@@ -11,7 +11,7 @@ void setup() {
   myfilter.begin (10);
 
   int value = analogRead (lm35_pin);
-}
+  }myfilter.initValue (value);
 
 void loop() {
 
